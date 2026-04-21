@@ -1,6 +1,7 @@
 import { Mail, User2Icon, Lock } from 'lucide-react'
 import React from 'react'
 
+
 const Login = () => {
     const query = new URLSearchParams(window.location.search)
     const urlState = query.get('state')
@@ -35,7 +36,7 @@ const Login = () => {
                     </div>
                 )}
                 <div className="flex items-center w-full mt-4 bg-white border border-gray-300/80 h-12 rounded-full overflow-hidden pl-6 gap-2">
-                    <Mail size={13} color="#6B7280"/ >
+                    <Mail size={13} color="#6B7280" />
                     <input type="email" name="email" placeholder="Email id" className="border-none outline-none ring-0" value={formData.email} onChange={handleChange} required />
                 </div>
                 <div className="flex items-center mt-4 w-full bg-white border border-gray-300/80 h-12 rounded-full overflow-hidden pl-6 gap-2">
