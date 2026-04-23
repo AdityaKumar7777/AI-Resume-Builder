@@ -10,7 +10,7 @@ const Features = () => {
 
         <div className="flex items-center gap-2 text-sm text-green-600 bg-green-400/10  rounded-full px-6 py-1.5">
             <Zap width={14}/>
-            <span>Simple Process</span>
+            <span className='cursor-default'>Simple Process</span>
         </div>
         <Title title='Build Your Resume' description='Our streamlined process helps you create a prfessional resume in minutes with intelligent AI-powered tools and features.'/>
             <div className="flex flex-col md:flex-row items-center justify-center xl:-mt-10">

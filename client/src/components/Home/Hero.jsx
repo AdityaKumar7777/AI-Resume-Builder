@@ -81,11 +81,11 @@ const Hero = () => {
                     </div>
 
                     {/* Headline + CTA */}
-                    <h1 className="text-5xl md:text-6xl font-semibold max-w-5xl text-center mt-4 md:leading-[70px]">
+                    <h1 className="text-5xl md:text-6xl font-semibold max-w-5xl text-center mt-4 md:leading-[70px] cursor-default">
                         Land your dream job with <span className=" bg-gradient-to-r from-green-700 to-green-600 bg-clip-text text-transparent text-nowrap">AI-Powered </span> Resume.
                     </h1>
 
-                    <p className="max-w-md text-center text-base my-7">Create, edit and download professional resumes with AI-powered assistance.</p>
+                    <p className="max-w-md text-center text-base my-7 cursor-default">Create, edit and download professional resumes with AI-powered assistance.</p>
 
                     {/* CTA Buttons */}
                     <div className="flex items-center gap-4 ">
@@ -99,7 +99,7 @@ const Hero = () => {
                         </button>
                     </div>
 
-                    <p className="py-6 text-slate-600 mt-14">Trusting by leading brands, including</p>
+                    <p className="py-6 text-slate-600 mt-14 cursor-default">Trusting by leading brands, including</p>
 
                     <div className="flex flex-wrap justify-between max-sm:justify-center gap-6 max-w-3xl w-full mx-auto py-4" id="logo-container">
                         {companiesLogo.map((company, index) => (

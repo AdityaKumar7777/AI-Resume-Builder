@@ -9,7 +9,7 @@ const Footer = () => {
                        <img src="/logo.svg" alt="logo" className='h-11 w-auto' />
                     </a>
                     <div>
-                        <p className="text-slate-800 font-semibold">Product</p>
+                        <p className="text-slate-800 font-semibold cursor-default">Product</p>
                         <ul className="mt-2 space-y-2">
                             <li><a href="/" className="hover:text-green-600 transition">Home</a></li>
                             <li><a href="/" className="hover:text-green-600 transition">Support</a></li>
@@ -18,7 +18,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <p className="text-slate-800 font-semibold">Resources</p>
+                        <p className="text-slate-800 font-semibold cursor-default">Resources</p>
                         <ul className="mt-2 space-y-2">
                             <li><a href="/" className="hover:text-green-600 transition">Company</a></li>
                             <li><a href="/" className="hover:text-green-600 transition">Blogs</a></li>
@@ -28,7 +28,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <p className="text-slate-800 font-semibold">Legal</p>
+                        <p className="text-slate-800 font-semibold cursor-default">Legal</p>
                         <ul className="mt-2 space-y-2">
                             <li><a href="/" className="hover:text-green-600 transition">Privacy</a></li>
                             <li><a href="/" className="hover:text-green-600 transition">Terms</a></li>
@@ -36,7 +36,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="flex flex-col max-md:items-center max-md:text-center gap-2 items-end">
-                    <p className="max-w-60">Making every customer feel valued—no matter the size of your audience.</p>
+                    <p className="max-w-60 cursor-default">Making every customer feel valued—no matter the size of your audience.</p>
                     <div className="flex items-center gap-4 mt-3">
                         <a href="https://dribbble.com/prebuiltui" target="_blank" rel="noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-dribbble size-5 hover:text-green-500" aria-hidden="true">
@@ -68,7 +68,7 @@ const Footer = () => {
                             </svg>
                         </a>
                     </div>
-                    <p className="mt-3 text-center">© 2025 Resume Builder</p>
+                    <p className="mt-3 text-center cursor-default">© 2025 Resume Builder</p>
                 </div>
             </footer>
 
