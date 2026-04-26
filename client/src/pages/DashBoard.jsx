@@ -78,6 +78,7 @@ const Dashboard = () => {
       setShowUploadResume(false);
       navigate(`/app/builder/${data.resumeId}`);
     } catch (error) {
+        console.log(error.response)
       toast.error(error?.response?.data?.message || error.message);
     }
 
