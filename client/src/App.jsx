@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Layout from "./pages/Layout";
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./pages/DashBoard";
 import ResumeBuilder from "./pages/ResumeBuilder";
 import Preview from "./pages/Preview";
 import { useDispatch } from "react-redux";
@@ -27,7 +27,7 @@ const App = () => {
 
         dispatch(setLoading(false));
       } else {
-        
+
         dispatch(setLoading(false));
       }
     } catch (error) {
