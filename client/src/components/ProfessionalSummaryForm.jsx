@@ -16,7 +16,7 @@ const ProfessionalSummaryForm = ({ data, onChange, setResumeData }) => {
       const response = await api.post(
         "/api/ai/enhanced-pro-sum",
         { userContent: prompt },
-        { headers: { Authorization: token } },
+        { headers: { Authorization: token } }
       );
 
       setResumeData((prev) => ({
@@ -29,6 +29,7 @@ const ProfessionalSummaryForm = ({ data, onChange, setResumeData }) => {
       setIsGenerating(false);
     }
   };
+
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between">
